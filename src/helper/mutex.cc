@@ -12,7 +12,7 @@
 Mutex::Mutex()
 {
     logCWarn(LC_LOCK) << "Constructing mutex " << this;
-    std::timed_mutex::timed_mutex();
+    std::timed_mutex();
 }
 
 Mutex::~Mutex()
