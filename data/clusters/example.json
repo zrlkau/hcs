@@ -1,0 +1,205 @@
+{
+    "type": "cluster",
+    "id": "example-cluster",
+    "graph": {
+        "type": "tree",
+        "vertices": [
+            {
+                "id": "node1.example.cluster.org",
+                "connectors": [
+                    {
+                        "id": "eth0",
+                        "dir": "up",
+                        "level": "1",
+                        "type": "unknown",
+                        "cost": "-1",
+                        "capacity": "1000000000"
+                    }
+                ],
+                "type": "regular",
+                "breed": "32-numa-intel-core-i5-5300-2.30-256GB-1g-eth",
+                "capacity": "-1",
+                "architecture": "x86_64",
+                "domains": [
+                    {
+                        "memory": "136564400128",
+                        "os_index": "0",
+                        "cores": [
+                            {
+                                "os_index": "0",
+                                "model": "Intel(R) Core(TM) i5-5300U CPU @ 2.30GHz",
+                                "pus": [
+                                    "0",
+                                    "2",
+                                    "4",
+                                    "6",
+                                    "8",
+                                    "10",
+                                    "12",
+                                    "14",
+                                    "16",
+                                    "18",
+                                    "20",
+                                    "22",
+                                    "24",
+                                    "26",
+                                    "28",
+                                    "30"
+                                ]
+                            },
+                            {
+                                "os_index": "1",
+                                "model": "Intel(R) Core(TM) i5-5300U CPU @ 2.30GHz",
+                                "pus": [
+                                    "1",
+                                    "3",
+                                    "5",
+                                    "7",
+                                    "9",
+                                    "11",
+                                    "13",
+                                    "15",
+                                    "17",
+                                    "19",
+                                    "21",
+                                    "23",
+                                    "25",
+                                    "27",
+                                    "29",
+                                    "31"
+                                ]
+                            }
+                        ],
+                        "iodevs": [
+                            {
+                                "os_index": "45056",
+                                "type": "storage",
+                                "dev": "sda"
+                            },
+                            {
+                                "os_index": "16384",
+                                "type": "gpu",
+                                "model": "Generic GPU Fast",
+                                "dev": "card0"
+                            },
+                            {
+                                "os_index": "24578",
+                                "type": "network",
+                                "dev": "eth0",
+                                "mac": "00:00:00:00:00:01",
+                                "ipv4": "10.0.0.1",
+                                "nmv4": "255.255.255.0",
+                                "bw": "1000000000",
+                                "lat": "1000"
+                            }
+                        ]
+                    }
+                ],
+                "ioports": [
+                    {
+                        "domain": "0",
+                        "iodev": "1"
+                    }
+                ]
+            },
+            {
+                "id": "node2.example.cluster.org",
+                "connectors": [
+                    {
+                        "id": "eth0",
+                        "dir": "up",
+                        "level": "1",
+                        "type": "unknown",
+                        "cost": "-1",
+                        "capacity": "1000000000"
+                    }
+                ],
+                "type": "regular",
+                "breed": "32-numa-intel-core-i5-5300-2.30-256GB-1g-eth",
+                "capacity": "-1",
+                "architecture": "x86_64",
+                "domains": [
+                    {
+                        "memory": "136564400128",
+                        "os_index": "0",
+                        "cores": [
+                            {
+                                "os_index": "0",
+                                "model": "Intel(R) Core(TM) i5-5300U CPU @ 2.30GHz",
+                                "pus": [
+                                    "0",
+                                    "2",
+                                    "4",
+                                    "6",
+                                    "8",
+                                    "10",
+                                    "12",
+                                    "14",
+                                    "16",
+                                    "18",
+                                    "20",
+                                    "22",
+                                    "24",
+                                    "26",
+                                    "28",
+                                    "30"
+                                ]
+                            },
+                            {
+                                "os_index": "1",
+                                "model": "Intel(R) Core(TM) i5-5300U CPU @ 2.30GHz",
+                                "pus": [
+                                    "1",
+                                    "3",
+                                    "5",
+                                    "7",
+                                    "9",
+                                    "11",
+                                    "13",
+                                    "15",
+                                    "17",
+                                    "19",
+                                    "21",
+                                    "23",
+                                    "25",
+                                    "27",
+                                    "29",
+                                    "31"
+                                ]
+                            }
+                        ],
+                        "iodevs": [
+                            {
+                                "os_index": "45056",
+                                "type": "storage",
+                                "dev": "sda"
+                            },
+                            {
+                                "os_index": "16384",
+                                "type": "gpu",
+                                "model": "Generic GPU Fast",
+                                "dev": "card0"
+                            },
+                            {
+                                "os_index": "24578",
+                                "type": "network",
+                                "dev": "eth0",
+                                "mac": "00:00:00:00:00:02",
+                                "ipv4": "10.0.0.2",
+                                "nmv4": "255.255.255.0",
+                                "bw": "1000000000",
+                                "lat": "1000"
+                            }
+                        ]
+                    }
+                ],
+                "ioports": [
+                    {
+                        "domain": "0",
+                        "iodev": "1"
+                    }
+                ]
+            },
+        ]
+    }
+}
